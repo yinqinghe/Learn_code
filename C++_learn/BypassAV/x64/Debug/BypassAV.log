@@ -1,0 +1,4 @@
+﻿  fud-uuid-shc.cpp
+D:\C#\Visual_Studio\test\Project1\BypassAV\fud-uuid-shc.cpp(75,41): warning C4244: “=”: 从“DWORDLONG”转换到“DWORD”，可能丢失数据
+D:\C#\Visual_Studio\test\Project1\BypassAV\fud-uuid-shc.cpp(225,67): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  BypassAV.vcxproj -> D:\C#\Visual_Studio\test\Project1\x64\Debug\BypassAV.exe

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\tmp">
+      <UniqueIdentifier>{cd9b6181-c960-4682-9cf5-c4ac0074b910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\example">
+      <UniqueIdentifier>{27614e54-ea1d-4a61-88df-1e5865060aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\my_thread">
+      <UniqueIdentifier>{8d6475ad-123c-4ac5-bfea-9480bee0c71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\do_fun">
+      <UniqueIdentifier>{b24f0696-c1ee-4ee0-87fb-41887e72b34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test_file">
+      <UniqueIdentifier>{e2a17de5-5905-4ff7-8c65-abfde7f7eb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test_http">
+      <UniqueIdentifier>{01bb0d8c-76a6-459a-8cb5-c399880ecfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\My_Template">
+      <UniqueIdentifier>{5257f9ca-ea60-42d3-8f06-f9942e056f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\do_memory">
+      <UniqueIdentifier>{d97d05c4-6f93-405f-8e7d-5b71072df6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test_fun">
+      <UniqueIdentifier>{f95686e6-3f00-49cb-8fb8-617887fad343}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="decode_encode.cpp">
+      <Filter>源文件\tmp</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.cpp">
+      <Filter>源文件\tmp</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp">
+      <Filter>源文件\tmp</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_num.cpp">
+      <Filter>源文件\tmp</Filter>
+    </ClCompile>
+    <ClCompile Include="do_request.cpp">
+      <Filter>源文件\tmp</Filter>
+    </ClCompile>
+    <ClCompile Include="test_http.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="http_function.cpp">
+      <Filter>源文件\example</Filter>
+    </ClCompile>
+    <ClCompile Include="my_thread.cpp">
+      <Filter>源文件\my_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="001.cpp">
+      <Filter>源文件\my_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="finish_done.cpp">
+      <Filter>源文件\my_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_example.cpp">
+      <Filter>源文件\my_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="read_file.cpp">
+      <Filter>源文件\test_file</Filter>
+    </ClCompile>
+    <ClCompile Include="post_form_file.cpp">
+      <Filter>源文件\test_http</Filter>
+    </ClCompile>
+    <ClCompile Include="post_form.cpp">
+      <Filter>源文件\test_http</Filter>
+    </ClCompile>
+    <ClCompile Include="first.cpp">
+      <Filter>源文件\My_Template</Filter>
+    </ClCompile>
+    <ClCompile Include="post_json.cpp">
+      <Filter>源文件\test_http</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\My_Template</Filter>
+    </ClCompile>
+    <ClCompile Include="http_header.cpp">
+      <Filter>源文件\test_http</Filter>
+    </ClCompile>
+    <ClCompile Include="do_Isass.cpp">
+      <Filter>源文件\do_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="heart.cpp">
+      <Filter>源文件\test_fun</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ctpl_stl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -15,9 +15,11 @@ static CLIENT: Lazy<reqwest::blocking::Client> = Lazy::new(|| {
 });
 
 pub fn do_func(i: i32) ->  Result<(), reqwest::Error> {
-    let res = CLIENT.get(&("https://www.baidu.com/".to_string() + &i.to_string()))
+    // let res = CLIENT.get(&("https://www.baidu.com/".to_string() + &i.to_string()))
+    let res = CLIENT.get(&("https://www.baidu.com/".to_string()))
+
         .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36")
-        .header("User-Agent", "你个大宝贝*************")
+        // .header("User-Agent", "你个大宝贝*************")
         .send()?;
 
     println!("Status: {}", res.status());

